@@ -1,0 +1,18 @@
+remove_mal_log = true
+mal_file_logs = "mal.jsonl"
+
+[threshold]
+pfbf = 1
+token = 0.8
+syntax = 0.8
+
+[pfbf]
+tile_cnt = 2
+seed = 42
+
+[resource]
+precise_dataset = "resource/precise_dataset.db"
+
+[experiment]
+dump_fn = false
+dump_pn_result = true

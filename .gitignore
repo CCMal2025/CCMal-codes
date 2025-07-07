@@ -1,0 +1,5 @@
+.idea
+resource
+scripts
+config.toml
+celery_task/cache
